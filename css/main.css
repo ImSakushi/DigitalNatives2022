@@ -1029,9 +1029,14 @@ a {
     width: 20%;
     margin: 0 1%;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .textWhite h1 {
         font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 850px) {
+    .textWhite h1 {
+        font-size: 3rem;
     }
 }
 
@@ -1046,7 +1051,7 @@ a {
         margin-top: 0;
     }
     .textWhite h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .hamburger {
         margin-top: 15px;
