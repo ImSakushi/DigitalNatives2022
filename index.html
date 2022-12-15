@@ -234,8 +234,10 @@
                         bandeau.style.transitionDelay = i * delay + "s";
                         //second console output
                     }
-
-                    popUpProg.style.transform = "translateX(0)";
+                    if (innerWidth < 740) {
+                        popUpProg.style.width = "100%";
+                        popUpProg.style.transform = "translateX(0px)";
+                    } else popUpProg.style.transform = "translateX(0)";
                     popUpProg.style.transitionDelay = 6 * delay + "s";
                     toggle = true;
                 } else if (toggle == true) {
@@ -257,6 +259,10 @@
                 }
                 toggle = false;
             }
+            // if (innerWidth < 740) {
+            //     popUpProg.style.width = "100%";
+            //     popUpProg.style.transform = "translateX(0px)";
+            // }
 
             // console.log(progBtn[0]);
             // console.log(popUpProg[0]);
