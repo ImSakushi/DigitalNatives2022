@@ -1056,6 +1056,24 @@ a {
     .hamburger {
         margin-top: 15px;
     }
+    #popSection h1 {
+        font-size: 3rem;
+    }
+
+    #popSection h2 {
+        font-size: 1.75rem;
+    }
+
+    #popSection p {
+        font-family: "GothamLight";
+        font-size: 0.8rem;
+    }
+    .popProgramme {
+        justify-content: flex-start;
+    }
+    .popProgramme article {
+        margin: 20px 0;
+    }
 }
 
 /*# sourceMappingURL=main.css.map */
